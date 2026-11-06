@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mujplugin" name="Můj Kodi Repozitář" version="1.0.0" provider-name="VašeJméno">
+    <extension point="xbmc.addon.repository" name="Můj Kodi Repozitář">
+        <dir compressed="false">
+            <info compressed="false">https://raw.githubusercontent.com/TomkoCZ/repository.toustello/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/TomkoCZ/repository.toustello/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/TomkoCZ/repository.toustello/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Toustello</summary>
+        <description>Repozitář pro instalaci a aktualizaci mého pluginu.</description>
+    </extension>
+</addon>
